@@ -1,0 +1,85 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/arduinobot_controller.dir/src/arduinobot_interface.cpp.o[0m
+[ 75%] Built target slider_control
+[ 75%] Built target ament_cmake_python_copy_arduinobot_controller
+running egg_info
+creating arduinobot_controller.egg-info
+writing arduinobot_controller.egg-info/PKG-INFO
+writing dependency_links to arduinobot_controller.egg-info/dependency_links.txt
+writing top-level names to arduinobot_controller.egg-info/top_level.txt
+writing manifest file 'arduinobot_controller.egg-info/SOURCES.txt'
+reading manifest file 'arduinobot_controller.egg-info/SOURCES.txt'
+writing manifest file 'arduinobot_controller.egg-info/SOURCES.txt'
+[ 75%] Built target ament_cmake_python_build_arduinobot_controller_egg
+[01m[K/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::[01;32m[Kon_activate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:100:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  100 | CallbackReturn ArduinobotInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::[01;32m[Kon_deactivate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:127:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  127 | CallbackReturn ArduinobotInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::[01;32m[Kread[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:149:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  149 | hardware_interface::return_type ArduinobotInterface::read([01;35m[Kconst rclcpp::Time &time[m[K,
+      |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:150:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  150 |                                                           [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:157:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  157 | hardware_interface::return_type ArduinobotInterface::write([01;35m[Kconst rclcpp::Time &time[m[K,
+      |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:158:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  158 |                                                            [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libarduinobot_controller.so[0m
+[100%] Built target arduinobot_controller
+-- Install configuration: ""
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/arduinobot_controller.xml
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/environment/pythonpath.sh
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/environment/pythonpath.dsv
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller-0.0.0-py3.12.egg-info
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller/__init__.py
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller/slider_control.py
+Listing '/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller'...
+Compiling '/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller/__init__.py'...
+Compiling '/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/lib/python3.12/site-packages/arduinobot_controller/slider_control.py'...
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/lib/arduinobot_controller/slider_control
+-- Set non-toolchain portion of runtime path of "/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/lib/arduinobot_controller/slider_control" to ""
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/lib/libarduinobot_controller.so
+-- Set non-toolchain portion of runtime path of "/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/lib/libarduinobot_controller.so" to ""
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/include/include
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/include/include/arduinobot_controller
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/include/include/arduinobot_controller/arduinobot_interface.hpp
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/launch
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/launch/controller.launch.py
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/launch/slider_controller.launch.py
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/config
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/config/arduinobot_controllers.yaml
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/lib/arduinobot_controller/slider_control.py
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/environment/library_path.sh
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/environment/library_path.dsv
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/ament_index/resource_index/package_run_dependencies/arduinobot_controller
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/ament_index/resource_index/parent_prefix_path/arduinobot_controller
+-- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/environment/path.sh
+-- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/environment/path.dsv
+-- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/local_setup.bash
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/local_setup.sh
+-- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/local_setup.zsh
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/local_setup.dsv
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/package.dsv
+-- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/ament_index/resource_index/packages/arduinobot_controller
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/arduinobot_controller
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig.cmake
+-- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig-version.cmake
+-- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/package.xml

@@ -1,0 +1,35 @@
+[0.051s] Invoking command in '/home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_remote': AMENT_PREFIX_PATH=/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_moveit:/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs:/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_moveit:/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs:/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_remote -- -j8 -l8
+[0.326s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.350s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.387s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.399s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.503s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.507s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.576s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.645s] -- Found rclcpp_action: 28.1.6 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.687s] -- Found rclcpp_components: 28.1.6 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.721s] -- Found arduinobot_msgs: 0.0.0 (/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs/share/arduinobot_msgs/cmake)
+[0.832s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[0.832s]   By not providing "Findmoveit_ros_planning_interface.cmake" in
+[0.832s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.832s]   configuration file provided by "moveit_ros_planning_interface", but CMake
+[0.832s]   did not find one.
+[0.832s] 
+[0.832s]   Could not find a package configuration file provided by
+[0.832s]   "moveit_ros_planning_interface" with any of the following names:
+[0.832s] 
+[0.832s]     moveit_ros_planning_interfaceConfig.cmake
+[0.832s]     moveit_ros_planning_interface-config.cmake
+[0.833s] 
+[0.833s]   Add the installation prefix of "moveit_ros_planning_interface" to
+[0.833s]   CMAKE_PREFIX_PATH or set "moveit_ros_planning_interface_DIR" to a directory
+[0.833s]   containing one of the above files.  If "moveit_ros_planning_interface"
+[0.833s]   provides a separate development package or SDK, be sure it has been
+[0.833s]   installed.
+[0.833s] 
+[0.833s] [0m
+[0.833s] -- Configuring incomplete, errors occurred!
+[0.848s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.850s] Invoked command in '/home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_remote' returned '2': AMENT_PREFIX_PATH=/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_moveit:/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs:/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_moveit:/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs:/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_remote -- -j8 -l8

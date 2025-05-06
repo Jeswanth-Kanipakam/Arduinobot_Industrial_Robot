@@ -1,0 +1,46 @@
+[0.019s] Invoking command in '/home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_controller': AMENT_PREFIX_PATH=/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_controller -- -j8 -l8
+[0.067s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.301s] -- Found trajectory_msgs: 5.3.5 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[0.411s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.447s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.488s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.528s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.652s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.709s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.836s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.851s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.978s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.000s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.019s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.159s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.170s] -- Found hardware_interface: 4.27.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[1.879s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[1.879s] -- Checking for module 'libserial'
+[1.889s] --   Found libserial, version 1.0.0
+[2.049s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.261s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.262s] -- Configured cppcheck include dirs: /home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_controller/include
+[2.262s] -- Configured cppcheck exclude dirs and/or files: 
+[2.270s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.270s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.282s] -- Added test 'lint_cmake' to check CMake code style
+[2.286s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.325s] -- Added test 'uncrustify' to check C / C++ code style
+[2.325s] -- Configured uncrustify additional arguments: 
+[2.333s] -- Added test 'xmllint' to check XML markup files
+[2.381s] -- Configuring done (2.3s)
+[2.667s] -- Generating done (0.3s)
+[2.755s] -- Build files have been written to: /home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_controller
+[2.812s] [ 50%] [32mBuilding CXX object CMakeFiles/arduinobot_controller.dir/src/arduinobot_interface.cpp.o[0m
+[2.813s] [ 50%] [32mBuilding CXX object CMakeFiles/slider_control.dir/src/slider_control.cpp.o[0m
+[2.824s] [01m[K/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Karduinobot_controller/arduinobot_interface.hpp: No such file or directory
+[2.825s]     1 | #include [01;31m[K"arduinobot_controller/arduinobot_interface.hpp"[m[K
+[2.826s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.826s] compilation terminated.
+[2.826s] [ 50%] Built target ament_cmake_python_copy_arduinobot_controller
+[2.827s] gmake[2]: *** [CMakeFiles/arduinobot_controller.dir/build.make:76: CMakeFiles/arduinobot_controller.dir/src/arduinobot_interface.cpp.o] Error 1
+[2.827s] gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/arduinobot_controller.dir/all] Error 2
+[2.827s] gmake[1]: *** Waiting for unfinished jobs....
+[9.422s] [ 75%] [32m[1mLinking CXX executable slider_control[0m
+[9.918s] [ 75%] Built target slider_control
+[9.919s] gmake: *** [Makefile:146: all] Error 2

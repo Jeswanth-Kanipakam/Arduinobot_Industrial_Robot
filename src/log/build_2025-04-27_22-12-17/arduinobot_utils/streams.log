@@ -1,0 +1,36 @@
+[0.326s] Invoking command in '/home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_utils': AMENT_PREFIX_PATH=/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_utils -- -j8 -l8
+[0.386s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.614s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.649s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.660s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.676s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.692s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.761s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.764s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.833s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.905s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.907s] -- Found arduinobot_msgs: 0.0.0 (/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs/share/arduinobot_msgs/cmake)
+[0.972s] -- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)
+[1.107s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.250s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.250s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.254s] -- Added test 'lint_cmake' to check CMake code style
+[1.256s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.274s] -- Added test 'xmllint' to check XML markup files
+[1.290s] -- Configuring done (0.9s)
+[1.319s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[1.319s]   Cannot find source file:
+[1.319s] 
+[1.319s]     src/angle_conversion.cpp
+[1.319s] 
+[1.319s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.319s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.319s]   .f95 .f03 .hip .ispc
+[1.319s] 
+[1.319s] [0m
+[1.322s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[1.322s]   No SOURCES given to target: angle_conversion
+[1.322s] 
+[1.322s] [0m
+[1.322s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.328s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1

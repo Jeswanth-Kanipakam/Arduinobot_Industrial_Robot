@@ -1,0 +1,10 @@
+{
+  "package_name": "arduinobot_msgs",
+  "non_idl_tuples": [
+    "/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_msgs:srv/AddTwoInts.srv",
+    "/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_msgs:srv/EulerToQuaternion.srv",
+    "/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_msgs:srv/QuaternionToEuler.srv",
+    "/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_msgs:action/Fibonacci.action",
+    "/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_msgs:action/ArduinobotTask.action"
+  ]
+}

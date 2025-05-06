@@ -1,0 +1,50 @@
+[0.084s] Invoking command in '/home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_firmware -- -j8 -l8
+[0.132s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.404s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.461s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.474s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.488s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.599s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.601s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.671s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.752s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.768s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.869s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.027s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.027s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.033s] -- Added test 'lint_cmake' to check CMake code style
+[1.037s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.071s] -- Added test 'xmllint' to check XML markup files
+[1.088s] -- Configuring done (1.0s)
+[1.103s] [31mCMake Error at CMakeLists.txt:19 (add_executable):
+[1.104s]   Cannot find source file:
+[1.104s] 
+[1.105s]     src/simple_serial_receiver.cpp
+[1.105s] 
+[1.106s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.106s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.107s]   .f95 .f03 .hip .ispc
+[1.107s] 
+[1.108s] [0m
+[1.108s] [31mCMake Error at CMakeLists.txt:26 (add_executable):
+[1.109s]   Cannot find source file:
+[1.109s] 
+[1.109s]     src/simple_serial_transmitter.cpp
+[1.110s] 
+[1.111s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.111s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.112s]   .f95 .f03 .hip .ispc
+[1.112s] 
+[1.113s] [0m
+[1.113s] [31mCMake Error at CMakeLists.txt:19 (add_executable):
+[1.113s]   No SOURCES given to target: simple_serial_receiver
+[1.113s] 
+[1.113s] [0m
+[1.113s] [31mCMake Error at CMakeLists.txt:26 (add_executable):
+[1.113s]   No SOURCES given to target: simple_serial_transmitter
+[1.113s] 
+[1.113s] [0m
+[1.113s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.113s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.114s] Invoked command in '/home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_firmware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_firmware -- -j8 -l8

@@ -1,0 +1,3 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/arduinobot_controller.dir/src/arduinobot_interface.cpp.o[0m
+[ 25%] Built target ament_cmake_python_copy_arduinobot_controller
+[ 75%] Built target slider_control

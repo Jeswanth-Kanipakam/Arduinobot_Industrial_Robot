@@ -1,0 +1,20 @@
+[0.071s] Invoking command in '/home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_remote': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_remote -- -j8 -l8
+[0.136s] Invoked command in '/home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_remote' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_remote -- -j8 -l8
+[0.139s] Invoking command in '/home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_remote': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_remote
+[0.149s] -- Install configuration: ""
+[0.156s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_remote/share/ament_index/resource_index/package_run_dependencies/arduinobot_remote
+[0.167s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_remote/share/ament_index/resource_index/parent_prefix_path/arduinobot_remote
+[0.175s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/environment/ament_prefix_path.sh
+[0.180s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/environment/ament_prefix_path.dsv
+[0.186s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/environment/path.sh
+[0.190s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/environment/path.dsv
+[0.196s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/local_setup.bash
+[0.202s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/local_setup.sh
+[0.209s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/local_setup.zsh
+[0.216s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/local_setup.dsv
+[0.222s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/package.dsv
+[0.233s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_remote/share/ament_index/resource_index/packages/arduinobot_remote
+[0.242s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/cmake/arduinobot_remoteConfig.cmake
+[0.258s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/cmake/arduinobot_remoteConfig-version.cmake
+[0.258s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/package.xml
+[0.582s] Invoked command in '/home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_remote' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_remote

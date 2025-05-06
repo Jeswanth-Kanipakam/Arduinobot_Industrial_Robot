@@ -1,0 +1,5 @@
+[0.073s] Invoking command in '/home/eeiww/ud90uhak/arduinobot_ws/src/build/aduinobot_remote': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/arduinobot_ws/src/build/aduinobot_remote -- -j8 -l8
+[0.107s] [0mCMake Error: The source directory "/home/eeiww/ud90uhak/arduinobot_ws/src/aduinobot_remote" does not exist.
+[0.107s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.107s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.118s] Invoked command in '/home/eeiww/ud90uhak/arduinobot_ws/src/build/aduinobot_remote' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/arduinobot_ws/src/build/aduinobot_remote -- -j8 -l8

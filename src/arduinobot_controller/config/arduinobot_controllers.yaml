@@ -1,0 +1,59 @@
+#the controller manager updates at 10Hz meaning it checks and updates all controllers 10 times per second
+controller_manager:
+  ros__parameters:
+    update_rate: 10 # Hz
+
+    # uses the JointTrajectoryController (standard ros controller to track a desired joint position over time)
+    arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    # gripper_controller:
+    #   type: forward_command_controller/ForwardCommandController
+
+    gripper_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    #this publishes the current state of the joints (positions, velocities, efforts) on the /joint_states  topic
+    #essential for tools like Rviz or robot_state_publisher to visualize and process joint states
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+#the arm controller contains 3 joints: joint_1, joint_2, joint_3
+arm_controller:
+  ros__parameters:
+    joints:
+      - joint_1
+      - joint_2
+      - joint_3
+
+    #the controller sends commands for joint positions
+    #and it reads the states (positions) from the hardware
+    command_interfaces:
+      - position
+
+    state_interfaces:
+      - position
+
+    #Open-loop control: it assumes the robot exactly follows the commands without verifying via feedback (i.e., it doesnt correct if something goes wrong)
+    open_loop_control: true
+    #Allows trajectory points to be generated relative to the current state
+    #helps smooth out movements if your current joint positions are slightly off from the planned trajectory start
+    allow_integration_in_goal_trajectories: true
+
+#the gripper controller controls only joint_4 (the gripper joint)
+gripper_controller:
+  ros__parameters:
+    joints:
+      - joint_4
+    # interface_name: position
+      
+    #again, position commands and position feedback
+    command_interfaces:
+      - position
+
+    state_interfaces:
+      - position
+
+    #same logic as with the arm: open loop and allowing smoother start integration
+    open_loop_control: true
+    allow_integration_in_goal_trajectories: true

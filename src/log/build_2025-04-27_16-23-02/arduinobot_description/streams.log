@@ -1,0 +1,11 @@
+[0.067s] Invoking command in '/home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_description -- -j8 -l8
+[0.119s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.343s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.498s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.499s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.508s] -- Added test 'lint_cmake' to check CMake code style
+[0.511s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.539s] -- Added test 'xmllint' to check XML markup files
+[0.554s] -- Configuring done (0.4s)
+[0.638s] -- Generating done (0.1s)
+[0.686s] -- Build files have been written to: /home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_description

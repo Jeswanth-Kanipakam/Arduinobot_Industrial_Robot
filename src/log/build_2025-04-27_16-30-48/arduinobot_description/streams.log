@@ -1,0 +1,42 @@
+[0.069s] Invoking command in '/home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_description -- -j8 -l8
+[0.129s] Invoked command in '/home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_description -- -j8 -l8
+[0.141s] Invoking command in '/home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_description
+[0.154s] -- Install configuration: ""
+[0.154s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/launch
+[0.157s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
+[0.168s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py
+[0.176s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/meshes
+[0.181s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
+[0.236s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
+[0.300s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL
+[0.352s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
+[0.442s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL
+[0.473s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL
+[0.584s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
+[0.628s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
+[0.641s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
+[0.723s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
+[0.746s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
+[0.786s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
+[0.801s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
+[0.894s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/urdf
+[0.900s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_ros2_control.xacro
+[0.906s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
+[0.913s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_gazebo.xacro
+[0.920s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/rviz
+[0.925s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
+[0.931s] -- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
+[0.933s] -- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh
+[0.933s] -- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv
+[0.934s] -- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/environment/path.sh
+[0.934s] -- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/environment/path.dsv
+[0.936s] -- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/local_setup.bash
+[0.937s] -- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/local_setup.sh
+[0.937s] -- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/local_setup.zsh
+[0.938s] -- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/local_setup.dsv
+[0.938s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/package.dsv
+[0.944s] -- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description
+[0.945s] -- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake
+[0.945s] -- Up-to-date: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake
+[0.947s] -- Installing: /home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/package.xml
+[0.954s] Invoked command in '/home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_description

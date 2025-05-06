@@ -1,0 +1,36 @@
+[0.037s] Invoking command in '/home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_remote': AMENT_PREFIX_PATH=/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_moveit:/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs:/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_moveit:/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs:/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eeiww/ud90uhak/arduinobot_ws/src/build/arduinobot_remote -- -j8 -l8
+[0.094s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.334s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.510s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.569s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.631s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.697s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.921s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.939s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.081s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.101s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.123s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.303s] -- Found rclcpp_action: 28.1.6 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.416s] -- Found rclcpp_components: 28.1.6 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.514s] -- Found arduinobot_msgs: 0.0.0 (/home/eeiww/ud90uhak/arduinobot_ws/src/install/arduinobot_msgs/share/arduinobot_msgs/cmake)
+[1.578s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[1.578s]   By not providing "Findmoveit_ros_planning_interface.cmake" in
+[1.578s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[1.578s]   configuration file provided by "moveit_ros_planning_interface", but CMake
+[1.579s]   did not find one.
+[1.579s] 
+[1.579s]   Could not find a package configuration file provided by
+[1.579s]   "moveit_ros_planning_interface" with any of the following names:
+[1.579s] 
+[1.579s]     moveit_ros_planning_interfaceConfig.cmake
+[1.579s]     moveit_ros_planning_interface-config.cmake
+[1.580s] 
+[1.582s]   Add the installation prefix of "moveit_ros_planning_interface" to
+[1.582s]   CMAKE_PREFIX_PATH or set "moveit_ros_planning_interface_DIR" to a directory
+[1.582s]   containing one of the above files.  If "moveit_ros_planning_interface"
+[1.582s]   provides a separate development package or SDK, be sure it has been
+[1.582s]   installed.
+[1.582s] 
+[1.582s] [0m
+[1.583s] -- Configuring incomplete, errors occurred!
+[1.592s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1

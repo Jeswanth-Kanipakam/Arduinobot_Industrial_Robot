@@ -1,0 +1,15 @@
+/home/eeiww/ud90uhak/arduinobot_ws/src/install/aduinobot_remote/share/ament_index/resource_index/package_run_dependencies/aduinobot_remote
+/home/eeiww/ud90uhak/arduinobot_ws/src/install/aduinobot_remote/share/ament_index/resource_index/parent_prefix_path/aduinobot_remote
+/home/eeiww/ud90uhak/arduinobot_ws/src/install/aduinobot_remote/share/aduinobot_remote/environment/ament_prefix_path.sh
+/home/eeiww/ud90uhak/arduinobot_ws/src/install/aduinobot_remote/share/aduinobot_remote/environment/ament_prefix_path.dsv
+/home/eeiww/ud90uhak/arduinobot_ws/src/install/aduinobot_remote/share/aduinobot_remote/environment/path.sh
+/home/eeiww/ud90uhak/arduinobot_ws/src/install/aduinobot_remote/share/aduinobot_remote/environment/path.dsv
+/home/eeiww/ud90uhak/arduinobot_ws/src/install/aduinobot_remote/share/aduinobot_remote/local_setup.bash
+/home/eeiww/ud90uhak/arduinobot_ws/src/install/aduinobot_remote/share/aduinobot_remote/local_setup.sh
+/home/eeiww/ud90uhak/arduinobot_ws/src/install/aduinobot_remote/share/aduinobot_remote/local_setup.zsh
+/home/eeiww/ud90uhak/arduinobot_ws/src/install/aduinobot_remote/share/aduinobot_remote/local_setup.dsv
+/home/eeiww/ud90uhak/arduinobot_ws/src/install/aduinobot_remote/share/aduinobot_remote/package.dsv
+/home/eeiww/ud90uhak/arduinobot_ws/src/install/aduinobot_remote/share/ament_index/resource_index/packages/aduinobot_remote
+/home/eeiww/ud90uhak/arduinobot_ws/src/install/aduinobot_remote/share/aduinobot_remote/cmake/aduinobot_remoteConfig.cmake
+/home/eeiww/ud90uhak/arduinobot_ws/src/install/aduinobot_remote/share/aduinobot_remote/cmake/aduinobot_remoteConfig-version.cmake
+/home/eeiww/ud90uhak/arduinobot_ws/src/install/aduinobot_remote/share/aduinobot_remote/package.xml

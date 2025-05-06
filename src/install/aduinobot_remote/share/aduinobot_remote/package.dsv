@@ -1,0 +1,8 @@
+source;share/aduinobot_remote/hook/cmake_prefix_path.ps1
+source;share/aduinobot_remote/hook/cmake_prefix_path.dsv
+source;share/aduinobot_remote/hook/cmake_prefix_path.sh
+source;share/aduinobot_remote/local_setup.bash
+source;share/aduinobot_remote/local_setup.dsv
+source;share/aduinobot_remote/local_setup.ps1
+source;share/aduinobot_remote/local_setup.sh
+source;share/aduinobot_remote/local_setup.zsh

@@ -1,0 +1,4 @@
+source;share/aduinobot_remote/local_setup.bash
+source;share/aduinobot_remote/local_setup.dsv
+source;share/aduinobot_remote/local_setup.sh
+source;share/aduinobot_remote/local_setup.zsh
