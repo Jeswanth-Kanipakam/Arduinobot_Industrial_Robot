@@ -2,6 +2,9 @@
 
 In this project, I created a real robotic arm that can be controlled using your voice through the Amazon Alexa voice assistant. The goal of the project is to design a system where a user can control a robotic arm to perform tasks simply by issuing voice commands. 
 
+<img width="1920" height="890" alt="logo" src="https://github.com/user-attachments/assets/29a1a700-4380-4a33-9832-63df0d8e93b0" />
+
+
 ## Concepts Covered
 
 ### 1. **Gazebo Simulation:**
