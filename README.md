@@ -62,13 +62,13 @@ sudo apt-get update && sudo apt-get install -y \
 ## Package Structure
 ```
 src/
-├── arduinobot_description/     # Robot model and visualization
+├── arduinobot_description/    # Robot model and visualization
 │   ├── urdf/                  # Robot URDF/XACRO files
 │   ├── meshes/                # 3D mesh files
 │   ├── launch/                # Launch files for visualization
 │   └── rviz/                  # RViz configurations
 │
-├── arduinobot_controller/      # Robot control configuration
+├── arduinobot_controller/     # Robot control configuration
 │   ├── config/                # Controller parameters
 │   └── launch/                # Control launch files
 │
