@@ -14,13 +14,13 @@ In this project, I created a real robotic arm that can be controlled using your 
    Studied the robot's kinematic chain and how to compute its motion from joint parameters to end-effector position using forward and inverse kinematics.
 
 ### 3. **ROS 2 Basics:**
-   Introduced to ROS 2 (Robot Operating System), including fundamental concepts like nodes, topics, and services. This is the foundation for building robotic applications.
+   Introduced to ROS 2 (Robot Operating System), including fundamental concepts like nodes, topics and services. This is the foundation for building robotic applications.
 
 ### 4. **ros2_control Library:**
-   Integrated the `ros2_control` library to manage the robotic arm’s hardware interface, control loops, and communication with hardware drivers.
+   Integrated the `ros2_control` library to manage the robotic arm’s hardware interface, control loops and communication with hardware drivers.
 
 ### 5. **MoveIt! 2:**
-   Implemented MoveIt! 2, which provides motion planning and control tools for the robotic arm. It allows us to generate trajectories, handle planning, and execute commands.
+   Implemented MoveIt! 2, which provides motion planning and control tools for the robotic arm. It allows us to generate trajectories, handle planning and execute commands.
 
 ### 6. **Using Arduino with ROS 2:**
    Learned how to interface an Arduino board with ROS 2 for controlling hardware components like motors and sensors, which are essential for robot control.
@@ -58,23 +58,100 @@ sudo apt-get update && sudo apt-get install -y \
         python3-pip
         pip install pyserial
   ```
+
+## Package Structure
+```
+src/
+├── arduinobot_description/     # Robot model and visualization
+│   ├── urdf/                  # Robot URDF/XACRO files
+│   ├── meshes/                # 3D mesh files
+│   ├── launch/                # Launch files for visualization
+│   └── rviz/                  # RViz configurations
+│
+├── arduinobot_controller/      # Robot control configuration
+│   ├── config/                # Controller parameters
+│   └── launch/                # Control launch files
+│
+├── arduinobot_moveit/         # MoveIt2 motion planning
+│   ├── config/                # MoveIt configuration
+│   └── launch/                # Motion planning launch files
+│
+├── arduinobot_msgs/           # Custom ROS 2 interfaces
+│   ├── msg/                   # Custom messages
+│   ├── srv/                   # Custom services
+│   └── action/                # Custom actions
+│
+├── arduinobot_py_examples/    # Python examples and tutorials
+│   └── arduinobot_py_examples/
+│       ├── simple_publisher.py
+│       ├── simple_subscriber.py
+│       ├── simple_service_server.py
+│       ├── simple_action_server.py
+│       ├── simple_parameter.py
+│       └── simple_moveit_interface.py
+│
+├── arduinobot_cpp_examples/   # C++ examples and tutorials
+│   └── src/                   # C++ source files
+│
+├── arduinobot_utils/          # Utility functions and tools
+│   └── arduinobot_utils/
+│       └── angle_conversion.py
+│
+└── arduinobot_remote/         # Remote control interfaces
+    └── arduinobot_remote/
+        ├── alexa_interface.py
+        └── task_server.py
+```
+
 ## Usage
-### 1. To launch the ROS 2 Simulated robot:
+### 1. Basic Visualization:
+
+Displays the robot model in RViz to enable visual inspection and manual joint manipulation.
+
+```bash
+1. ros2 launch arduinobot_description urdf_tutorial model:=/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_description/urdf/arduinobot.urdf.xacro
+                           or
+2. ros2 launch arduinobot_description display.launch.py
+```
+<img width="2560" height="1440" alt="Screenshot from 2025-11-09 16-44-51" src="https://github.com/user-attachments/assets/f82927c7-71b0-48d9-a78b-7b5a5c1506d2" />
+
+<img width="2560" height="1440" alt="Screenshot from 2025-11-09 15-43-45" src="https://github.com/user-attachments/assets/7fd0eb38-da8d-4c8d-9bf0-a7201b370b32" />
+
+What does this show: This command launches your robot's model in the RViz visualizer, simultaneously opening a GUI to manually control its joints and see the movements update in real-time.
+
+### 2. Gazebo Simulation
+Launch the complete simulation environment:
+
+```bash
+# Terminal 1: Start Gazebo simulation
+ros2 launch arduinobot_description gazebo.launch.py
+
+# Terminal 2: Load and start controllers
+ros2 launch arduinobot_controller controller.launch.py
+```
+<img width="2560" height="1440" alt="Screenshot from 2025-11-09 16-39-53" src="https://github.com/user-attachments/assets/080256a7-6569-4471-9aa9-56b0eae843cb" />
+
+You can use this platform for realistic physics simulation, interactive robot control, sensor integration and environmental interactions.
+
+### 3. To launch the Simulated robot
+Run the terminal command
 
 ```bash
 ros2 launch arduinobot_bringup simulated_robot.launch.py
 ```
-### 2. To launch the Real robot, connect the Arduino to the PC and upload the code in the folder on the Arduino controller. Then launch the real robot
+![Screenshot from 2025-11-09 32-53-45](https://github.com/user-attachments/assets/0a6c3f1d-7491-444f-925c-94e72164ae8d)
+
+### 4. To launch the Real robot, connect the Arduino to the PC and upload the code in the folder on the Arduino controller. Then launch the real robot
 
 ```bash
 ros2 launch arduinobot_bringup real_robot.launch.py
 ```
-### 3. To launch the interface with Alexa download ngrok and create an account then setup ngrok with your key
+### 5. To launch the interface with Alexa download ngrok and create an account then setup ngrok with your key
 
 ```bash
 ./ngrok authtoken <YOUR-KEY>
 ```
-### 4. Then start the ngrok web server with
+### 6. Then start the ngrok web server with
 
 ```bash
 ./ngrok http 5000
