@@ -109,7 +109,7 @@ src/
 Displays the robot model in RViz to enable visual inspection and manual joint manipulation.
 
 ```bash
-1. ros2 launch arduinobot_description urdf_tutorial model:=/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_description/urdf/arduinobot.urdf.xacro
+1. ros2 launch urdf_tutorial display.launch.py model:=/home/eeiww/ud90uhak/arduinobot_ws/src/arduinobot_description/urdf/arduinobot.urdf.xacro
                            or
 2. ros2 launch arduinobot_description display.launch.py
 ```
