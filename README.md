@@ -38,13 +38,13 @@ To get started with this project, you'll need to set up the following:
 
 ```bash
 sudo apt-get update && sudo apt-get install -y \
-     ros-humble-joint-state-publisher-gui \
-     ros-humble-xacro \
-     ros-humble-ros2-control \
-     ros-humble-moveit* \
-     ros-humble-ros2-controllers \
-     ros-humble-ros-gz-* \
-     ros-humble-*-ros2-control
+     ros-jazzy-joint-state-publisher-gui \
+     ros-jazzy-xacro \
+     ros-jazzy-ros2-control \
+     ros-jazzy-moveit* \
+     ros-jazzy-ros2-controllers \
+     ros-jazzy-ros-gz-* \
+     ros-jazzy-*-ros2-control
 ```
 
 
