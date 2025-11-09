@@ -33,7 +33,7 @@ In this project, I created a real robotic arm that can be controlled using your 
 To get started with this project, you'll need to set up the following:
 
 1. **Ubuntu 22.04** installed on your system.
-2. **ROS 2 Humble or Jazzy** installed on Ubuntu.
+2. **ROS 2 Jazzy** installed on Ubuntu.
 3. **Install necessary ROS 2 libraries** for simulation, control, and motion planning:
 
 ```bash
